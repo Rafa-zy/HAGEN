@@ -128,7 +128,6 @@ class HAGENSupervisor:
             y_truth = self._data[f'y_{dataset}'][:, :, :, :]
             y_pred = y_preds[:y_truth.shape[0], :, :, :]
             y_truth_reshape = np.reshape(y_truth, (-1, self._model_kwargs['output_dim']))
-            # posi_prop = 1 - np.mean(y_truth_reshape)
             y_pred_reshape = np.reshape(y_pred, (-1, self._model_kwargs['output_dim']))
             y_pred_reshape_sigmoid = sigmoid(y_pred_reshape)
             ss = MinMaxScaler(feature_range=(0, 1))
