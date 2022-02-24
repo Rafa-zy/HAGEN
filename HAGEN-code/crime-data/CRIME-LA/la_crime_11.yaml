@@ -1,0 +1,47 @@
+---
+base_dir: data/model
+log_level: INFO
+data:
+  batch_size: 15
+  dataset_dir: crime-data/CRIME-LA/11
+  test_batch_size: 15
+  val_batch_size: 15
+  graph_pkl_filename: crime-data/sensor_graph/adj_mx_la.pkl
+
+model:
+  cl_decay_steps: 2000
+  filter_type: dual_random_walk
+  horizon: 1
+  input_dim: 8
+  l1_decay: 0
+  max_diffusion_step: 2
+  num_nodes: 113
+  num_rnn_layers: 2
+  output_dim: 8
+  rnn_units: 64
+  seq_len: 8
+  use_curriculum_learning: true
+  graph_learning: true
+  emb_dir: pretrained_embeddings/embedding_la.npy
+  crime_emb_dir: pretrained_embeddings/embedding_crime.npy
+  poi_dir: pretrained_embeddings/embedding_la_poi.npy
+  node_dim: 8
+  subgraph_size: 65
+  tanhalpha: 5
+
+train:
+  base_lr: 0.01
+  dropout: 0
+  epoch: 0
+  epochs: 100
+  epsilon: 1.0e-3
+  global_step: 0
+  lr_decay_ratio: 0.1
+  lmd: 0.01
+  max_grad_norm: 5
+  max_to_keep: 100
+  min_learning_rate: 2.0e-06
+  optimizer: adam
+  patience: 25
+  steps: [10, 30, 40, 50]
+  test_every_n_epochs: 10

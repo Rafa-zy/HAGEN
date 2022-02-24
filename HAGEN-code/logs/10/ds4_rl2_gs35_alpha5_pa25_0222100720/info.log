@@ -1,0 +1,161 @@
+2022-02-22 10:07:20,761 - model.hagen_supervisor - INFO - Log directory: ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720
+2022-02-22 10:07:20,959 - model.hagen_supervisor - INFO - Model created
+2022-02-22 10:07:20,975 - model.hagen_supervisor - INFO - Start training ...
+2022-02-22 10:07:20,975 - model.hagen_supervisor - INFO - num_batches:12
+2022-02-22 10:07:21,153 - model.hagen_supervisor - INFO - Total trainable parameters 770496
+2022-02-22 10:07:36,026 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.52867, average micro-F1 score is 0.60087
+2022-02-22 10:07:36,027 - model.hagen_supervisor - INFO - Epoch [0/100] (12) train_loss: 0.9204, (0.5471 / 18.6679) val_loss: 0.8519, (0.4905 / 18.0725) lr: 0.010000, 15.0s
+2022-02-22 10:07:36,869 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52631, average micro-F1 score is 0.58962
+2022-02-22 10:07:36,981 - model.hagen_supervisor - INFO - Val F1 increase from 0.0000 to 0.5575, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:07:49,810 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53901, average micro-F1 score is 0.60438
+2022-02-22 10:07:49,811 - model.hagen_supervisor - INFO - Epoch [1/100] (24) train_loss: 0.8614, (0.4918 / 18.4796) val_loss: 0.8411, (0.4828 / 17.9137) lr: 0.010000, 12.8s
+2022-02-22 10:07:50,648 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53374, average micro-F1 score is 0.59221
+2022-02-22 10:07:51,157 - model.hagen_supervisor - INFO - Val F1 increase from 0.5575 to 0.5652, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:08:03,855 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54884, average micro-F1 score is 0.61492
+2022-02-22 10:08:03,856 - model.hagen_supervisor - INFO - Epoch [2/100] (36) train_loss: 0.8540, (0.4851 / 18.4453) val_loss: 0.8397, (0.4793 / 18.0168) lr: 0.010000, 12.7s
+2022-02-22 10:08:04,756 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53681, average micro-F1 score is 0.59893
+2022-02-22 10:08:04,772 - model.hagen_supervisor - INFO - Val F1 increase from 0.5652 to 0.5753, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:08:17,249 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54475, average micro-F1 score is 0.61421
+2022-02-22 10:08:17,250 - model.hagen_supervisor - INFO - Epoch [3/100] (48) train_loss: 0.8508, (0.4818 / 18.4473) val_loss: 0.8390, (0.4776 / 18.0729) lr: 0.010000, 12.5s
+2022-02-22 10:08:18,150 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53369, average micro-F1 score is 0.59857
+2022-02-22 10:08:30,187 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54233, average micro-F1 score is 0.61468
+2022-02-22 10:08:30,188 - model.hagen_supervisor - INFO - Epoch [4/100] (60) train_loss: 0.8493, (0.4798 / 18.4733) val_loss: 0.8348, (0.4747 / 18.0009) lr: 0.010000, 12.0s
+2022-02-22 10:08:31,026 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53365, average micro-F1 score is 0.60093
+2022-02-22 10:08:43,773 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54005, average micro-F1 score is 0.61726
+2022-02-22 10:08:43,774 - model.hagen_supervisor - INFO - Epoch [5/100] (72) train_loss: 0.8492, (0.4787 / 18.5247) val_loss: 0.8376, (0.4748 / 18.1422) lr: 0.010000, 12.7s
+2022-02-22 10:08:44,620 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53644, average micro-F1 score is 0.60765
+2022-02-22 10:08:56,920 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54554, average micro-F1 score is 0.61913
+2022-02-22 10:08:56,920 - model.hagen_supervisor - INFO - Epoch [6/100] (84) train_loss: 0.8506, (0.4789 / 18.5868) val_loss: 0.8373, (0.4739 / 18.1706) lr: 0.010000, 12.3s
+2022-02-22 10:08:57,822 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53755, average micro-F1 score is 0.60635
+2022-02-22 10:09:11,031 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54209, average micro-F1 score is 0.61819
+2022-02-22 10:09:11,032 - model.hagen_supervisor - INFO - Epoch [7/100] (96) train_loss: 0.8496, (0.4787 / 18.5439) val_loss: 0.8341, (0.4734 / 18.0387) lr: 0.010000, 13.2s
+2022-02-22 10:09:11,928 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53027, average micro-F1 score is 0.60258
+2022-02-22 10:09:25,202 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54199, average micro-F1 score is 0.61749
+2022-02-22 10:09:25,203 - model.hagen_supervisor - INFO - Epoch [8/100] (108) train_loss: 0.8475, (0.4773 / 18.5121) val_loss: 0.8360, (0.4738 / 18.1071) lr: 0.010000, 13.3s
+2022-02-22 10:09:26,101 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53318, average micro-F1 score is 0.60423
+2022-02-22 10:09:41,368 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54204, average micro-F1 score is 0.61187
+2022-02-22 10:09:41,369 - model.hagen_supervisor - INFO - Epoch [9/100] (120) train_loss: 0.8487, (0.4785 / 18.5099) val_loss: 0.8358, (0.4743 / 18.0737) lr: 0.000100, 15.3s
+2022-02-22 10:09:42,208 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53775, average micro-F1 score is 0.60400
+2022-02-22 10:10:06,359 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54851, average micro-F1 score is 0.61656
+2022-02-22 10:10:06,360 - model.hagen_supervisor - INFO - Epoch [10/100] (132) train_loss: 0.8468, (0.4777 / 18.4536) val_loss: 0.8331, (0.4730 / 18.0033) lr: 0.001000, 24.2s
+2022-02-22 10:10:08,519 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53979, average micro-F1 score is 0.60070
+2022-02-22 10:10:08,547 - model.hagen_supervisor - INFO - Val F1 increase from 0.5753 to 0.5757, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:10:25,976 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53742, average micro-F1 score is 0.61866
+2022-02-22 10:10:25,977 - model.hagen_supervisor - INFO - Epoch [11/100] (144) train_loss: 0.8448, (0.4780 / 18.3421) val_loss: 0.8305, (0.4717 / 17.9385) lr: 0.001000, 17.4s
+2022-02-22 10:10:27,169 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53511, average micro-F1 score is 0.60859
+2022-02-22 10:10:43,644 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53932, average micro-F1 score is 0.62616
+2022-02-22 10:10:43,645 - model.hagen_supervisor - INFO - Epoch [12/100] (156) train_loss: 0.8424, (0.4759 / 18.3277) val_loss: 0.8297, (0.4711 / 17.9336) lr: 0.001000, 16.5s
+2022-02-22 10:10:44,667 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52917, average micro-F1 score is 0.61083
+2022-02-22 10:11:01,911 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53876, average micro-F1 score is 0.61960
+2022-02-22 10:11:01,911 - model.hagen_supervisor - INFO - Epoch [13/100] (168) train_loss: 0.8432, (0.4759 / 18.3653) val_loss: 0.8349, (0.4736 / 18.0659) lr: 0.001000, 17.2s
+2022-02-22 10:11:02,983 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53162, average micro-F1 score is 0.60588
+2022-02-22 10:11:19,842 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53889, average micro-F1 score is 0.62850
+2022-02-22 10:11:19,842 - model.hagen_supervisor - INFO - Epoch [14/100] (180) train_loss: 0.8442, (0.4757 / 18.4252) val_loss: 0.8299, (0.4709 / 17.9508) lr: 0.001000, 16.9s
+2022-02-22 10:11:21,033 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52455, average micro-F1 score is 0.61036
+2022-02-22 10:11:36,076 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53114, average micro-F1 score is 0.62358
+2022-02-22 10:11:36,076 - model.hagen_supervisor - INFO - Epoch [15/100] (192) train_loss: 0.8440, (0.4760 / 18.3978) val_loss: 0.8324, (0.4724 / 18.0012) lr: 0.001000, 15.0s
+2022-02-22 10:11:36,994 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52298, average micro-F1 score is 0.61095
+2022-02-22 10:11:49,038 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54683, average micro-F1 score is 0.62381
+2022-02-22 10:11:49,038 - model.hagen_supervisor - INFO - Epoch [16/100] (204) train_loss: 0.8440, (0.4756 / 18.4203) val_loss: 0.8333, (0.4727 / 18.0293) lr: 0.001000, 12.0s
+2022-02-22 10:11:49,988 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52806, average micro-F1 score is 0.60341
+2022-02-22 10:11:50,031 - model.hagen_supervisor - INFO - Val F1 increase from 0.5757 to 0.5776, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:12:03,060 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54404, average micro-F1 score is 0.62335
+2022-02-22 10:12:03,060 - model.hagen_supervisor - INFO - Epoch [17/100] (216) train_loss: 0.8446, (0.4758 / 18.4396) val_loss: 0.8293, (0.4715 / 17.8874) lr: 0.001000, 13.0s
+2022-02-22 10:12:03,928 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53168, average micro-F1 score is 0.60506
+2022-02-22 10:12:16,413 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53993, average micro-F1 score is 0.62124
+2022-02-22 10:12:16,413 - model.hagen_supervisor - INFO - Epoch [18/100] (228) train_loss: 0.8432, (0.4749 / 18.4128) val_loss: 0.8338, (0.4725 / 18.0650) lr: 0.001000, 12.5s
+2022-02-22 10:12:17,391 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53243, average micro-F1 score is 0.60612
+2022-02-22 10:12:30,491 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54211, average micro-F1 score is 0.61843
+2022-02-22 10:12:30,491 - model.hagen_supervisor - INFO - Epoch [19/100] (240) train_loss: 0.8454, (0.4756 / 18.4931) val_loss: 0.8330, (0.4709 / 18.1081) lr: 0.001000, 13.1s
+2022-02-22 10:12:31,491 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53719, average micro-F1 score is 0.60600
+2022-02-22 10:12:47,466 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54808, average micro-F1 score is 0.62452
+2022-02-22 10:12:47,467 - model.hagen_supervisor - INFO - Epoch [20/100] (252) train_loss: 0.8448, (0.4741 / 18.5385) val_loss: 0.8302, (0.4691 / 18.0554) lr: 0.001000, 16.0s
+2022-02-22 10:12:48,601 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53637, average micro-F1 score is 0.60954
+2022-02-22 10:12:48,619 - model.hagen_supervisor - INFO - Val F1 increase from 0.5776 to 0.5787, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:13:02,181 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53808, average micro-F1 score is 0.62639
+2022-02-22 10:13:02,182 - model.hagen_supervisor - INFO - Epoch [21/100] (264) train_loss: 0.8451, (0.4740 / 18.5548) val_loss: 0.8307, (0.4693 / 18.0711) lr: 0.001000, 13.6s
+2022-02-22 10:13:03,139 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.51909, average micro-F1 score is 0.60777
+2022-02-22 10:13:16,367 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53836, average micro-F1 score is 0.62686
+2022-02-22 10:13:16,367 - model.hagen_supervisor - INFO - Epoch [22/100] (276) train_loss: 0.8453, (0.4740 / 18.5646) val_loss: 0.8343, (0.4717 / 18.1271) lr: 0.001000, 13.2s
+2022-02-22 10:13:17,226 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52541, average micro-F1 score is 0.61107
+2022-02-22 10:13:29,951 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54881, average micro-F1 score is 0.62452
+2022-02-22 10:13:29,951 - model.hagen_supervisor - INFO - Epoch [23/100] (288) train_loss: 0.8476, (0.4761 / 18.5735) val_loss: 0.8333, (0.4708 / 18.1235) lr: 0.001000, 12.7s
+2022-02-22 10:13:30,830 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53605, average micro-F1 score is 0.61013
+2022-02-22 10:13:30,848 - model.hagen_supervisor - INFO - Val F1 increase from 0.5787 to 0.5791, saving to ./logs/10/ds4_rl2_gs35_alpha5_pa25_0222100720/model.tar
+2022-02-22 10:13:43,235 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54343, average micro-F1 score is 0.62194
+2022-02-22 10:13:43,236 - model.hagen_supervisor - INFO - Epoch [24/100] (300) train_loss: 0.8470, (0.4746 / 18.6197) val_loss: 0.8346, (0.4715 / 18.1521) lr: 0.001000, 12.4s
+2022-02-22 10:13:44,133 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53283, average micro-F1 score is 0.60565
+2022-02-22 10:13:56,456 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54421, average micro-F1 score is 0.62288
+2022-02-22 10:13:56,456 - model.hagen_supervisor - INFO - Epoch [25/100] (312) train_loss: 0.8491, (0.4751 / 18.6976) val_loss: 0.8365, (0.4714 / 18.2584) lr: 0.001000, 12.3s
+2022-02-22 10:13:57,305 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53028, average micro-F1 score is 0.60411
+2022-02-22 10:14:10,196 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53911, average micro-F1 score is 0.62194
+2022-02-22 10:14:10,196 - model.hagen_supervisor - INFO - Epoch [26/100] (324) train_loss: 0.8540, (0.4779 / 18.8014) val_loss: 0.8439, (0.4767 / 18.3612) lr: 0.001000, 12.9s
+2022-02-22 10:14:11,025 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52435, average micro-F1 score is 0.60246
+2022-02-22 10:14:23,479 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54909, average micro-F1 score is 0.61819
+2022-02-22 10:14:23,480 - model.hagen_supervisor - INFO - Epoch [27/100] (336) train_loss: 0.8523, (0.4781 / 18.7099) val_loss: 0.8356, (0.4733 / 18.1189) lr: 0.001000, 12.5s
+2022-02-22 10:14:24,346 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53509, average micro-F1 score is 0.60352
+2022-02-22 10:14:37,287 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53178, average micro-F1 score is 0.60883
+2022-02-22 10:14:37,288 - model.hagen_supervisor - INFO - Epoch [28/100] (348) train_loss: 0.8528, (0.4802 / 18.6276) val_loss: 0.8478, (0.4813 / 18.3255) lr: 0.001000, 12.9s
+2022-02-22 10:14:38,183 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52487, average micro-F1 score is 0.59657
+2022-02-22 10:14:50,833 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53163, average micro-F1 score is 0.60485
+2022-02-22 10:14:50,834 - model.hagen_supervisor - INFO - Epoch [29/100] (360) train_loss: 0.8700, (0.4948 / 18.7611) val_loss: 0.8533, (0.4865 / 18.3379) lr: 0.000010, 12.7s
+2022-02-22 10:14:51,730 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52681, average micro-F1 score is 0.59527
+2022-02-22 10:15:03,724 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53922, average micro-F1 score is 0.60133
+2022-02-22 10:15:03,725 - model.hagen_supervisor - INFO - Epoch [30/100] (372) train_loss: 0.8656, (0.4892 / 18.8212) val_loss: 0.8510, (0.4808 / 18.5094) lr: 0.000100, 12.0s
+2022-02-22 10:15:04,571 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53184, average micro-F1 score is 0.58844
+2022-02-22 10:15:16,975 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54237, average micro-F1 score is 0.61023
+2022-02-22 10:15:16,975 - model.hagen_supervisor - INFO - Epoch [31/100] (384) train_loss: 0.8620, (0.4835 / 18.9254) val_loss: 0.8475, (0.4777 / 18.4869) lr: 0.000100, 12.4s
+2022-02-22 10:15:17,828 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53220, average micro-F1 score is 0.59468
+2022-02-22 10:15:30,219 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53724, average micro-F1 score is 0.61164
+2022-02-22 10:15:30,220 - model.hagen_supervisor - INFO - Epoch [32/100] (396) train_loss: 0.8596, (0.4819 / 18.8860) val_loss: 0.8461, (0.4762 / 18.4949) lr: 0.000100, 12.4s
+2022-02-22 10:15:31,115 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53575, average micro-F1 score is 0.59975
+2022-02-22 10:15:44,071 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53923, average micro-F1 score is 0.60953
+2022-02-22 10:15:44,072 - model.hagen_supervisor - INFO - Epoch [33/100] (408) train_loss: 0.8583, (0.4802 / 18.9041) val_loss: 0.8447, (0.4755 / 18.4584) lr: 0.000100, 13.0s
+2022-02-22 10:15:44,991 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53785, average micro-F1 score is 0.59987
+2022-02-22 10:15:59,230 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54349, average micro-F1 score is 0.61398
+2022-02-22 10:15:59,231 - model.hagen_supervisor - INFO - Epoch [34/100] (420) train_loss: 0.8578, (0.4790 / 18.9403) val_loss: 0.8462, (0.4748 / 18.5713) lr: 0.000100, 14.2s
+2022-02-22 10:16:00,102 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53538, average micro-F1 score is 0.59869
+2022-02-22 10:16:15,470 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54447, average micro-F1 score is 0.62124
+2022-02-22 10:16:15,471 - model.hagen_supervisor - INFO - Epoch [35/100] (432) train_loss: 0.8578, (0.4779 / 18.9920) val_loss: 0.8432, (0.4730 / 18.5122) lr: 0.000100, 15.4s
+2022-02-22 10:16:16,680 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53539, average micro-F1 score is 0.60718
+2022-02-22 10:16:30,621 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53808, average micro-F1 score is 0.61257
+2022-02-22 10:16:30,621 - model.hagen_supervisor - INFO - Epoch [36/100] (444) train_loss: 0.8564, (0.4772 / 18.9623) val_loss: 0.8441, (0.4747 / 18.4732) lr: 0.000100, 13.9s
+2022-02-22 10:16:31,576 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53286, average micro-F1 score is 0.60305
+2022-02-22 10:16:44,998 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54461, average micro-F1 score is 0.61749
+2022-02-22 10:16:44,999 - model.hagen_supervisor - INFO - Epoch [37/100] (456) train_loss: 0.8565, (0.4771 / 18.9694) val_loss: 0.8447, (0.4746 / 18.5064) lr: 0.000100, 13.4s
+2022-02-22 10:16:45,899 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53566, average micro-F1 score is 0.60364
+2022-02-22 10:16:58,075 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54155, average micro-F1 score is 0.62147
+2022-02-22 10:16:58,076 - model.hagen_supervisor - INFO - Epoch [38/100] (468) train_loss: 0.8558, (0.4763 / 18.9734) val_loss: 0.8428, (0.4732 / 18.4837) lr: 0.000100, 12.2s
+2022-02-22 10:16:58,907 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53349, average micro-F1 score is 0.60824
+2022-02-22 10:17:11,013 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54037, average micro-F1 score is 0.61468
+2022-02-22 10:17:11,013 - model.hagen_supervisor - INFO - Epoch [39/100] (480) train_loss: 0.8550, (0.4756 / 18.9670) val_loss: 0.8447, (0.4743 / 18.5199) lr: 0.000001, 12.1s
+2022-02-22 10:17:11,874 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53457, average micro-F1 score is 0.60376
+2022-02-22 10:17:23,972 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54745, average micro-F1 score is 0.61913
+2022-02-22 10:17:23,972 - model.hagen_supervisor - INFO - Epoch [40/100] (492) train_loss: 0.8543, (0.4752 / 18.9593) val_loss: 0.8427, (0.4735 / 18.4574) lr: 0.000010, 12.1s
+2022-02-22 10:17:24,809 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53750, average micro-F1 score is 0.60683
+2022-02-22 10:17:36,786 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54317, average micro-F1 score is 0.61773
+2022-02-22 10:17:36,786 - model.hagen_supervisor - INFO - Epoch [41/100] (504) train_loss: 0.8534, (0.4750 / 18.9197) val_loss: 0.8442, (0.4742 / 18.4967) lr: 0.000010, 12.0s
+2022-02-22 10:17:37,618 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53734, average micro-F1 score is 0.60565
+2022-02-22 10:17:49,478 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54208, average micro-F1 score is 0.61866
+2022-02-22 10:17:49,479 - model.hagen_supervisor - INFO - Epoch [42/100] (516) train_loss: 0.8539, (0.4745 / 18.9669) val_loss: 0.8413, (0.4718 / 18.4752) lr: 0.000010, 11.9s
+2022-02-22 10:17:50,333 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53508, average micro-F1 score is 0.60435
+2022-02-22 10:18:02,554 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54624, average micro-F1 score is 0.62616
+2022-02-22 10:18:02,554 - model.hagen_supervisor - INFO - Epoch [43/100] (528) train_loss: 0.8524, (0.4737 / 18.9348) val_loss: 0.8409, (0.4717 / 18.4593) lr: 0.000010, 12.2s
+2022-02-22 10:18:03,375 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53642, average micro-F1 score is 0.61142
+2022-02-22 10:18:15,743 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53882, average micro-F1 score is 0.62405
+2022-02-22 10:18:15,744 - model.hagen_supervisor - INFO - Epoch [44/100] (540) train_loss: 0.8530, (0.4741 / 18.9445) val_loss: 0.8411, (0.4711 / 18.5018) lr: 0.000010, 12.4s
+2022-02-22 10:18:16,718 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.53057, average micro-F1 score is 0.60942
+2022-02-22 10:18:28,980 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53887, average micro-F1 score is 0.62358
+2022-02-22 10:18:28,980 - model.hagen_supervisor - INFO - Epoch [45/100] (552) train_loss: 0.8536, (0.4743 / 18.9613) val_loss: 0.8444, (0.4731 / 18.5653) lr: 0.000010, 12.3s
+2022-02-22 10:18:29,867 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52586, average micro-F1 score is 0.60624
+2022-02-22 10:18:42,321 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.54240, average micro-F1 score is 0.62264
+2022-02-22 10:18:42,321 - model.hagen_supervisor - INFO - Epoch [46/100] (564) train_loss: 0.8579, (0.4766 / 19.0645) val_loss: 0.8460, (0.4740 / 18.5989) lr: 0.000010, 12.5s
+2022-02-22 10:18:43,189 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52700, average micro-F1 score is 0.60706
+2022-02-22 10:18:55,488 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53561, average micro-F1 score is 0.62358
+2022-02-22 10:18:55,488 - model.hagen_supervisor - INFO - Epoch [47/100] (576) train_loss: 0.8589, (0.4774 / 19.0775) val_loss: 0.8438, (0.4728 / 18.5531) lr: 0.000010, 12.3s
+2022-02-22 10:18:56,339 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52530, average micro-F1 score is 0.60965
+2022-02-22 10:19:08,373 - model.hagen_supervisor - INFO - val: The average macro-F1 score is 0.53966, average micro-F1 score is 0.61913
+2022-02-22 10:19:08,374 - model.hagen_supervisor - INFO - Epoch [48/100] (588) train_loss: 0.8562, (0.4755 / 19.0331) val_loss: 0.8427, (0.4734 / 18.4674) lr: 0.000010, 12.0s
+2022-02-22 10:19:09,196 - model.hagen_supervisor - INFO - test: The average macro-F1 score is 0.52961, average micro-F1 score is 0.60647
+2022-02-22 10:19:09,196 - model.hagen_supervisor - WARNING - Early stopping at epoch: 48
+2022-02-22 10:19:09,197 - model.hagen_supervisor - INFO - For the best epoch23: The average macro-F1 score is 0.53605, average micro-F1 score is 0.61013
