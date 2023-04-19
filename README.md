@@ -33,3 +33,18 @@ python hagen_train.py --config_filename ./crime-data/CRIME-LA/la_crime_9.yaml --
 ```
 
 Experimental settings and some supplemental results can be referred to `HAGEN_suppl.pdf`.
+
+# Citation
+Please cite us if it is useful in your work:
+```
+@inproceedings{wang2022hagen,
+  title={Hagen: Homophily-aware graph convolutional recurrent network for crime forecasting},
+  author={Wang, Chenyu and Lin, Zongyu and Yang, Xiaochen and Sun, Jiao and Yue, Mingxuan and Shahabi, Cyrus},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={4},
+  pages={4193--4200},
+  year={2022}
+}
+```
+
