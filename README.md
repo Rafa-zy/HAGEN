@@ -2,6 +2,12 @@
 
 This is a PyTorch implementation of  **HAGEN: Homophily-Aware Graph Convolutional Recurrent Network for Crime Forecasting**.
 
+## Contact Update
+
+Feel free to contact us if you have any questions related to our work:
+
+Chenyu Wang: chenyuwang.monica@gmail.com
+Zongyu Lin: lzyxx17@gmail.com
 
 
 ## Requirements
